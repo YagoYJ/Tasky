@@ -20,17 +20,22 @@ You can start editing the page by modifying `app/page.tsx`. The page auto-update
 
 This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
 
-## Learn More
+## Package Manager
 
-To learn more about Next.js, take a look at the following resources:
+Para instalação de bibliotecas, vamos utilizar o `pnpm`. Para instalar, basta rodar o comando ```cmd npm i -g pnpm``` no terminal.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Eslint
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+O projeto está seguindo as configurações do vídeo da [Rocketseat](https://youtu.be/cbSHUVSUFgY?si=hMa7rV-B4ZS05YhV)
 
-## Deploy on Vercel
+## Components
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+O projeto utiliza os componentes do [Shadcn/ui](https://ui.shadcn.com/), todo componente instalado pela biblioteca deve ficar em `src/app/components/ui`, componentes criados manualmente devem ficar em `src/app/components`.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## Paleta
+
+As cores utilizadas devem respeitar as cores padrões do [Tailwind](https://tailwindcss.com/), bem como espaçamentos, tamanhos de fontes, etc.
+
+## Payloads e Responses
+
+Todas as requests devem utilizar os schemas feitos com [Zod](https://zod.dev/). Todos os schemas, tipagem de payloads e tipagem de responses vão ficar na pasta `src/contracts`
