@@ -30,7 +30,7 @@ O projeto está seguindo as configurações do vídeo da [Rocketseat](https://yo
 
 ## Components
 
-O projeto utiliza os componentes do [Shadcn/ui](https://ui.shadcn.com/), todo componente instalado pela biblioteca deve ficar em `src/app/components/ui`, componentes criados manualmente devem ficar em `src/app/components`.
+O projeto utiliza os componentes do [Shadcn/ui](https://ui.shadcn.com/), todo componente instalado pela biblioteca deve ficar em `src/components/ui`, componentes criados manualmente devem ficar em `src/components`.
 
 ## Paleta
 
@@ -38,4 +38,4 @@ As cores utilizadas devem respeitar as cores padrões do [Tailwind](https://tail
 
 ## Payloads e Responses
 
-Todas as requests devem utilizar os schemas feitos com [Zod](https://zod.dev/). Todos os schemas, tipagem de payloads e tipagem de responses vão ficar na pasta `src/contracts`
+Todas as requests devem utilizar os schemas feitos com [Zod](https://zod.dev/). Todos os schemas, tipagem de payloads e tipagem de responses vão ficar na pasta `src/app/contracts`
